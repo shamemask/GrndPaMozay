@@ -90,9 +90,9 @@ namespace GrndPaMozay
         {
 
 
-            
-            Array.Sort(rabbits.rabbits, new sortByFatness());
             Array.Sort(rabbits.rabbits, new sortByColor());
+            Array.Sort(rabbits.rabbits, new sortByFatness());
+            
 
             
             foreach (var rabbit in rabbits.rabbits)
